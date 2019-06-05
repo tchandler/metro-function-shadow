@@ -1,0 +1,13 @@
+{
+  "name": "function-name-shadow-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "bundle-test": "metro build test-source.js --out test-out.js --dev false",
+    "test": "metro build test-source.js --out test-out.js --dev false --compress --minify"
+  },
+  "dependencies": {
+    "metro": "^0.54.1"
+  }
+}
